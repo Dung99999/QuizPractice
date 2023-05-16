@@ -14,13 +14,14 @@
         <style>
             .btn{
                 color: greenyellow;
+                
                 width: 100%;
             }
             .form-container {
                 width: 400px;
                 margin: 0 auto;
                 padding: 20px;
-                background-color: #f2f2f2;
+                background-color: darkred;
                 border-radius: 5px;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             }
@@ -58,6 +59,10 @@
         </style>
     </head>
     <body>
+            <div class="btn">
+                <img src="https://img.freepik.com/premium-vector/red-register-now-label-modern-style-white_123447-702.jpg" 
+                         class="" alt="">
+            </div>
         <div> 
             <div class="form-container">
             <div class="signup-form">
@@ -90,10 +95,6 @@
                     </div>
             </div>
             </div>
-            </div>
-            <div class="btn">
-                <img src="https://img.freepik.com/premium-vector/red-register-now-label-modern-style-white_123447-702.jpg" 
-                         class="" alt="">
             </div>
         </div>
     </body>
