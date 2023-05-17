@@ -14,7 +14,6 @@
         <style>
             .btn{
                 color: greenyellow;
-                
                 width: 100%;
             }
             .form-container {

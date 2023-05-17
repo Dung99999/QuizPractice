@@ -17,7 +17,7 @@
         <div>
             <div>
                 <style>
-                    .btn-danger{
+                    .btn-success{
                     display: flex;
                     justify-content: space-between;
                     height: 100%;
@@ -27,7 +27,7 @@
                         width: 60%;
                         height: 100%;
                     }
-                    .btn-danger img{
+                    .btn-success img{
                             width: 100%;
                             height: 800px;
                     }
@@ -40,7 +40,7 @@
                 </style>
                 <form action="LoginController">
                     
-                        <div class="btn btn-danger" ">
+                        <div class="btn btn-success" ">
                         <div class="ig">
                             <img src="https://toigingiuvedep.vn/wp-content/uploads/2022/04/avatar-hoc-bai-cham-chi-dep-cute.jpg" class="" alt="">
                         </div>
@@ -52,7 +52,7 @@
                             <label for="password">Password</label>
                             <input type="password" name="pass" placeholder="Password" id="password">
                             <br>
-                            <input class="btn btn-success" type="submit" name="submit" value="Login"><br>
+                            <input class="btn btn-danger" type="submit" name="submit" value="Login"><br>
                             <p>Do not have an account yet ? <a href="SignUp.jsp">Sign up</a></p>
                         </div>
                     </div>
