@@ -17,7 +17,10 @@
         <div>
             <div>
                 <style>
-                    .btn-success{
+                    .nen{
+                        background: navy;
+                    }
+                    .bb{
                     display: flex;
                     justify-content: space-between;
                     height: 100%;
@@ -27,7 +30,7 @@
                         width: 60%;
                         height: 100%;
                     }
-                    .btn-success img{
+                    .bb img{
                             width: 100%;
                             height: 800px;
                     }
@@ -36,13 +39,14 @@
                         align-items: center;
                         width: 40%;
                         height: 100%;
+                        color: white;
                     }
                 </style>
                 <form action="LoginController">
-                    
-                        <div class="btn btn-success" ">
+                    <div class="nen">
+                        <div class="btn bb" ">
                         <div class="ig">
-                            <img src="https://toigingiuvedep.vn/wp-content/uploads/2022/04/avatar-hoc-bai-cham-chi-dep-cute.jpg" class="" alt="">
+                            <img src="https://static.vecteezy.com/system/resources/previews/003/206/208/original/quiz-time-neon-signs-style-text-free-vector.jpg" class="" alt="">
                         </div>
                         <div class="lo">
                             <h3>Login</h3>
@@ -52,8 +56,9 @@
                             <label for="password">Password</label>
                             <input type="password" name="pass" placeholder="Password" id="password">
                             <br>
-                            <input class="btn btn-danger" type="submit" name="submit" value="Login"><br>
-                            <p>Do not have an account yet ? <a href="SignUp.jsp">Sign up</a></p>
+                            <input class="btn btn-success" type="submit" name="submit" value="Login"><br>
+                            <p>Do not have an account yet ? <a class="btn btn-danger" href="SignUp.jsp">Sign up</a></p>
+                        </div>
                         </div>
                     </div>
                 </form>

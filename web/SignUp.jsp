@@ -20,7 +20,7 @@
                 width: 400px;
                 margin: 0 auto;
                 padding: 20px;
-                background-color: darkred;
+                background-color: lightcyan;
                 border-radius: 5px;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             }
@@ -45,7 +45,7 @@
                 width: 100%;
                 padding: 10px;
                 border: none;
-                background-color: #4CAF50;
+                background-color: orangered;
                 color: #fff;
                 font-weight: bold;
                 cursor: pointer;
@@ -53,13 +53,13 @@
             }
 
             .form-container input[type="submit"]:hover {
-                background-color: #45a049;
+                background-color: darkred;
             }
         </style>
     </head>
     <body>
             <div class="btn">
-                <img src="https://img.freepik.com/premium-vector/red-register-now-label-modern-style-white_123447-702.jpg" 
+                <img src="https://uale.org/wp-content/uploads/2021/04/RegisterNow_small-2.jpeg" 
                          class="" alt="">
             </div>
         <div> 
